@@ -1,3 +1,4 @@
 pandas
 numpy
 pyqms
+chemical_composition
