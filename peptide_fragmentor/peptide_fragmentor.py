@@ -4,7 +4,7 @@ from collections import defaultdict as ddict
 import pandas as pd
 import numpy as np
 import pyqms
-from pyqms.chemical_composition import ChemicalComposition
+from chemical_composition import ChemicalComposition
 import copy
 import pprint
 
