@@ -122,8 +122,8 @@ class PeptideFragment0r:
                             new_ion_frag['mods'].append(mod)
                         new_ion_frag['hill'] = new_ion_frag['cc'].hill_notation_unimod()
                         new_ion_frag['charge'] = 1
-                        new_ion_frag['predicted intensity'] = np.NAN
-                        new_ion_frag['mass'] = new_ion_frag['cc'].mass()
+                        new_ion_frag['predicted intensity'] = np.nan
+                        new_ion_frag['mass'] = new_ion_frag['cc']._mass()
                         new_ion_frag['mz'] = new_ion_frag['mass'] + peptide_fragmentor.PROTON
                         new_ion_frag['series'] = ion_type
                         new_ion_frag['modstring'] = ','.join(sorted(new_ion_frag['mods']))
